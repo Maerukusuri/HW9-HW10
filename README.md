@@ -48,14 +48,14 @@ Calculates loan risk and returns a loan decision. Tests cover risk levels, valid
 
 ---
 
-## 🔐 Security & Validation Tests
+##  Security & Validation Tests
 
 | #   | What’s Tested                                 | Status              |
 | --- | --------------------------------------------- | ------------------- |
-| 1   | PUT/DELETE require valid API key              | ✅ implemented      |
-| 2   | Invalid/missing API key returns correct error | ✅ implemented      |
-| 3   | Wrong content-type returns 415 error          | ✅ implemented      |
-| 4   | Type mismatch (e.g. string instead of number) | ⚠️ partially tested |
-| 5   | Extra/unknown fields don’t break the API      | ✅ handled          |
+| 1   | PUT/DELETE require valid API key              | implemented      |
+| 2   | Invalid/missing API key returns correct error | implemented      |
+| 3   | Wrong content-type returns 415 error          | implemented      |
+| 4   | Type mismatch (e.g. string instead of number) | partially tested |
+| 5   | Extra/unknown fields don’t break the API      | handled          |
 
 ---
