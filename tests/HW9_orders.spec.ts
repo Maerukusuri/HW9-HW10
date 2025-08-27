@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { StatusCodes } from 'http-status-codes';
-import { validOrder, invalidOrder, validApiKey, invalidApiKey } from './dto/orderDto.js';
+import { validOrder, invalidOrder, validApiKey, invalidApiKey } from './dto/orderDto';
 
 // positive test: GET request for an existing order ID — expect status 200
 test('GET existing order by ID returns 200', async ({ request }) => {
